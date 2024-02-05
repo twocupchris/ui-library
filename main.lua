@@ -76,7 +76,8 @@ function main:Begin(PROPS)
     Window.BackgroundColor3 = Color3.fromRGB(21, 22, 23)
     Window.BackgroundTransparency = 0.050
     Window.ClipsDescendants = true
-    Window.Position = UDim2.new(0.283211678, 0, 0.155285195, 0)
+    --Window.Position = UDim2.new(0.283211678, 0, 0.155285195, 0)
+    Window.Position = UDim2.new(0, 0, 0, 0)
     Window.Selectable = true
     Window.Size = UDim2.new(0, MenuOptions.Width, 0, MenuOptions.Height)
 
